@@ -1,0 +1,36 @@
+name: dojo_sensei
+description: "Aplicativo de Gestão para Academias e Dojos - Dojo Sensei"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Armazenamento Local e Formatadores
+  shared_preferences: ^2.5.6
+  intl: ^0.20.2
+
+  # Integração WhatsApp
+  url_launcher: ^6.3.3
+
+  # Reprodução de Vídeos MP4 locais ou online
+  video_player: ^2.9.2
+  
+  # Seleção de arquivos (para escolher o MP4 no celular/PC)
+  file_picker: ^10.3.10
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
